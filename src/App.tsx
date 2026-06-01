@@ -1,78 +1,34 @@
 import * as React from "react";
+import Hero from "@/components/our component/hero"
+import Opportunities from "./components/our component/opportunities";
+import Inquiry from "./components/our component/inquiry";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
-import hero from "@/assets/hero.jpg"
-import Navbar from "./components/our component/navbar";
+import Trusted from "@/components/our component/Trusted";
+import Navbar from "@/components/our component/navbar"
 
- function App() {
-  return (
-    <section className="relative overflow-hidden ">
-      <Navbar/>
-      {/* Background */}
-      <div aria-hidden="true" className="absolute inset-0 -z-10">
-      <img
-    src={hero}
-    alt=""
-    className="absolute inset-0 w-full h-full lg:object-cover object-none  "
-    style={{
-      objectPosition:" center ",
-    }}
-  />
-      </div>
 
-      <div className="mx-auto w-[min(1160px,92vw)] py-10 md:py-16 ">
-        <div className="grid grid-cols-1 gap-6  lg:gap-8 items-center justify-center ">
-          {/* Left: Copy */}
-          <div className="m-28 p-3 border rounded-3xl backdrop-blur">
-            {/* Trust row */}
-            <h1 className="mt-5 text-3xl md:text-5xl font-extrabold tracking-tight text-white leading-[1.05]">
-              Find the right <span className="bg-gradient-to-r from-emerald-300 to-cyan-300 bg-clip-text text-transparent">residential or investment lot</span> fast.
-            </h1>
-
-            <p className="mt-4 text-base md:text-lg text-white/70 leading-7 max-w-[60ch] m-auto">
-              Explore available land opportunities and get matched with lots that fit your budget location goals and timeline.
-              Submit an inquiry to receive current options pricing and next steps.
-            </p>
-
-            {/* Micro value points */}
-       
-            {/* Optional CTA line (kept visible; actual form CTA is on the right) */}
-            <div className="mt-6 flex flex-wrap items-center gap-3 justify-center">
-              <Button
-                className="bg-emerald-500 hover:bg-emerald-500/90 text-black font-extrabold"
-                size="lg"
-                onClick={() => {
-                  const el = document.getElementById("lots-inquiry");
-                  el?.scrollIntoView({ behavior: "smooth", block: "start" });
-                }}
-              >
-                Get Available Lots
-              </Button>
-
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-white/15 bg-white/5 hover:bg-white/10 text-white font-extrabold"
-                onClick={() => {
-                  const el = document.getElementById("lots-inquiry");
-                  el?.scrollIntoView({ behavior: "smooth", block: "start" });
-                }}
-              >
-                Request More Info
-              </Button>
-            </div>
-          </div>
-
-          {/* Right: Lead form card */}
-         
-        </div>
-      </div>
-    </section>
-  );
+function scrollToInquiry() {
+  const el = document.getElementById("inquiry");
+  el?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-export default App;
+export default function LotsLandingPage() {
+  const [privacyOk, setPrivacyOk] = React.useState(true);
+
+  return (
+    <div className="min-h-screen bg-gray-900 text-white">
+      <Navbar/>
+      {/* Background */}
+      <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10">
+        <div className="absolute -top-40 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-gradient-to-tr from-emerald-400/20 via-cyan-400/10 to-blue-500/20 blur-3xl" />
+        <div className="absolute -bottom-60 right-[-120px] h-[520px] w-[520px] rounded-full bg-gradient-to-tr from-indigo-500/20 via-fuchsia-400/10 to-emerald-400/15 blur-3xl" />
+        <div className="absolute inset-0 opacity-30 bg-[linear-gradient(to_right,rgba(255,255,255,0.10)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[size:52px_52px]" />
+      </div>
+
+      <Hero/>
+      <Opportunities/>
+      <Trusted/>     
+      <Inquiry/>
+    </div>
+  );
+}
