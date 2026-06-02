@@ -1,12 +1,15 @@
 import React from 'react'
 import { Separator } from "@/components/ui/separator";
 
+import Logo from "@/assets/logo.png"
+
 function footer() {
   return (
     <div>
     <footer className="border-t border-white/10 text-white/80">
-      <div className="mx-auto w-[min(1120px,92vw)] py-10">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="mx-auto px-28  py-10">
+     
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
           <div>
             <div className="text-base font-extrabold text-white">
               Florida Lots
