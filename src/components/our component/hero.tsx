@@ -1,6 +1,4 @@
 import React from "react";
-import { Badge } from "@/components/ui/badge";
-import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Hero from "@/assets/hero.jpg";
 
@@ -12,7 +10,7 @@ function hero() {
 
   return (
     <section className="relative overflow-hidden ">
-      <div className=" p-4 bg-sky-400 rounded-none border-white shadow-[0_24px_70px_rgba(0,0,0,0.45)]">
+      <div className=" px-6 py-4 bg-sky-400 rounded-none border-white shadow-[0_24px_70px_rgba(0,0,0,0.45)]">
         <div className="flex items-center justify-between gap-3">
           <div>
             <div className="text-lg font-extrabold">
@@ -43,24 +41,33 @@ function hero() {
           </div>
         </div>
       </div>
-      <div className=" w-[min(1120px,92vw)] mx-auto mr-0 pr-0 border-t-0 pb-8 md:pb-12 flex flex-col items-center">
-        <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+      <div className=" border-t-0 pb-8 md:pb-12 flex flex-col items-center">
+        <div className="grid grid-cols-1 items-start justify-center gap-8 lg:grid-cols-2">
           {/* Left */}
-          <div className="">
-            <div className="flex flex-wrap items-center gap-2 pl-0">
+          <div className="m-auto px-5">
+            <div className="flex flex-wrap items-center justify-center gap-2 pl-0">
               <h1 className="mt-5 text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05]">
                 Buy the right{" "}
                 <span className="bg-gradient-to-r from-emerald-300 to-cyan-300 bg-clip-text text-transparent">
-                  lot in California
+                  lot in Florida
                 </span>{" "}
                 with current availability
               </h1>
 
-              <p className=" max-w-[62ch] text-white/70 text-base md:text-lg leading-7">
-                Tell us what you want We match you with available residential
-                or investment lots and provide pricing location fit and next
-                steps so you can move confidently
+              <p className="  text-white/70 text-base md:text-lg leading-7">
+                Tell us what you want We match you with available residential or
+                investment lots and provide pricing location fit and next steps
+                so you can move confidently
               </p>
+              <div className="mt-9 r">
+                <Button
+                  onClick={scrollToInquiry}
+                  className="bg-emerald-500 hover:bg-emerald-500/90 text-black font-extrabold"
+                  size="lg"
+                >
+                  Request Current Options
+                </Button>
+              </div>
             </div>
           </div>
 
@@ -100,33 +107,10 @@ function hero() {
                 </div>
               ))}
             </div>
-            <img src={Hero} alt="" className="rounded-bl-3xl " />
+            <img src={Hero} alt="" className="rounded-bl-3xl max-w-full" />
           </div>
         </div>
-      
-        <div className="mt-9 flex flex-wrap items-center gap-3 text-center">
-            <Button
-              onClick={scrollToInquiry}
-              className="bg-emerald-500 hover:bg-emerald-500/90 text-black font-extrabold"
-              size="lg"
-            >
-              Request Current Options
-            </Button>
-            <Button
-              variant="outline"
-              onClick={() =>
-                document.getElementById("opportunities")?.scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                })
-              }
-              className="border-white/15 bg-white/5 hover:bg-white/10 text-white font-extrabold"
-              size="lg"
-            >
-              View Opportunity Types
-            </Button>
-          </div>
-          </div>
+      </div>
     </section>
   );
 }

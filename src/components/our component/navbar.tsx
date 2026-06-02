@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className="">
         <div className=" ">
-          <div className="flex items-center justify-between gap-3  border border-white/10  px-6 py-3 shadow-lg">
+          <div className="flex items-center justify-between gap-3  border border-white/10  px-16 py-3 shadow-lg">
           <div className="flex gap-3">
             <div className="bg-white rounded-full">
              <img src={Logo} alt="" className="w-10" />

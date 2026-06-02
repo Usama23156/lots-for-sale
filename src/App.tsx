@@ -5,6 +5,7 @@ import Inquiry from "./components/our component/inquiry";
 import { Button } from "@/components/ui/button";
 import Trusted from "@/components/our component/Trusted";
 import Navbar from "@/components/our component/navbar"
+import Footer from "@/components/our component/footer"
 
 
 function scrollToInquiry() {
@@ -29,6 +30,7 @@ export default function LotsLandingPage() {
       <Opportunities/>
       <Trusted/>     
       <Inquiry/>
+      <Footer/>
     </div>
   );
 }

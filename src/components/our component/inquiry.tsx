@@ -19,18 +19,18 @@ function inquiry() {
      const [privacyOk, setPrivacyOk] = React.useState(true);
   return (
      <section id="inquiry" className="relative bg-slate-800">
-        <div className="mx-auto w-[min(1120px,92vw)] py-10 md:py-14">
-          <div className="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] gap-6 items-start">
-            <div>
+        <div className="mx-auto px-28 py-10 md:py-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className='mt-9 '>
               <div className="text-sm font-extrabold text-emerald-300 tracking-wide">
                 REQUEST INFORMATION
               </div>
-              <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
+              <h2 className="mt-2 text-3xl md:text-4xl font-extrabold px-2">
                 Submit an inquiry to get current lot options
               </h2>
               <p className="mt-3 text-white/70 leading-7">
                 Fill this form and we’ll respond with a curated shortlist based on
-                your goals, budget range, and preferred area in California.
+                your goals, budget range, and preferred area in Florida.
               </p>
 
             <img src={Inqurary} alt="" className='rounded-2xl mt-10'/>
@@ -123,7 +123,7 @@ function inquiry() {
                     className="mt-1 border-white/20"
                   />
                   <div className="text-sm text-white/70 leading-6">
-                    I agree to be contacted about lot availability. No spam. (Required)
+                    y checking this box, I agree to the Privacy Policy and Terms of Use. I consent to receive calls and text messages from AquaSafe Walk-In Tubs Florida and its service partners at the number provided, including via automated technology. Message and data rates may apply. Consent is not required to purchase. I may revoke consent at any time. Privacy Policy · Terms of Use
                     {!privacyOk ? (
                       <div className="mt-1 text-xs text-rose-300">
                         Please confirm to submit.
