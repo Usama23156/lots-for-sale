@@ -1,14 +1,7 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import Opportunities from "@/assets/opportunities.jpg";
 
 function opportunities() {
-  function scrollToInquiry() {
-    const el = document.getElementById("inquiry");
-    el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
   return (
     <section id="opportunities" className="relative bg-slate-800">
       <div className="mx-auto px-28 py-10 md:py-14">

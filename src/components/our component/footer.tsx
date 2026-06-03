@@ -1,7 +1,4 @@
-import React from 'react'
 import { Separator } from "@/components/ui/separator";
-
-import Logo from "@/assets/logo.png"
 
 function footer() {
   return (
@@ -69,7 +66,7 @@ function footer() {
 
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div className="text-xs text-white/45">
-            © {new Date().getFullYear()} California Lots. All rights reserved.
+            © {new Date().getFullYear()} Florida Lots. All rights reserved.
           </div>
           <div className="text-xs text-white/45">
             Privacy Policy • Cookie Policy • Legal

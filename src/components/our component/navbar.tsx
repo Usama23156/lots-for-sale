@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import Logo from "@/assets/logo.png"
+import Logo from "@/assets/logo.svg";
 
 export default function Navbar() {
     function scrollToInquiry() {
@@ -13,8 +12,8 @@ export default function Navbar() {
         <div className=" ">
           <div className="flex items-center justify-between gap-3  border border-white/10  px-16 py-3 shadow-lg">
           <div className="flex gap-3">
-            <div className="bg-white rounded-full">
-             <img src={Logo} alt="" className="w-10" />
+            <div className="rounded-full bg-white p-1 shadow-sm">
+             <img src={Logo} alt="Lots For Sale Florida logo" className="h-10 w-10" />
             </div>
             <div className="min-w-0">
               <div className="truncate text-sm font-extrabold">

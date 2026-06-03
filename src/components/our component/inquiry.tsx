@@ -14,7 +14,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import Inqurary from "@/assets/inquray.jpg"
 
-function inquiry() {
+function Inquiry() {
 
      const [privacyOk, setPrivacyOk] = React.useState(true);
   return (
@@ -102,7 +102,7 @@ function inquiry() {
                   <Label className="text-white/80">Preferred location (optional)</Label>
                   <Input
                     name="location"
-                    placeholder="City / region in CA"
+                    placeholder="City / region in Florida"
                     className="bg-black/20 border-white/15 text-white placeholder:text-white/40"
                   />
                 </div>
@@ -123,7 +123,7 @@ function inquiry() {
                     className="mt-1 border-white/20"
                   />
                   <div className="text-sm text-white/70 leading-6">
-                    y checking this box, I agree to the Privacy Policy and Terms of Use. I consent to receive calls and text messages from AquaSafe Walk-In Tubs Florida and its service partners at the number provided, including via automated technology. Message and data rates may apply. Consent is not required to purchase. I may revoke consent at any time. Privacy Policy · Terms of Use
+                    By checking this box, I agree to the Privacy Policy and Terms of Use. I consent to receive calls and text messages from Lots For Sale Florida and its service partners at the number provided, including via automated technology. Message and data rates may apply. Consent is not required to purchase. I may revoke consent at any time. Privacy Policy · Terms of Use
                     {!privacyOk ? (
                       <div className="mt-1 text-xs text-rose-300">
                         Please confirm to submit.
@@ -151,4 +151,4 @@ function inquiry() {
       </section>
   )
 }
-export default inquiry
+export default Inquiry
