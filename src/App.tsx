@@ -1,21 +1,11 @@
-import * as React from "react";
 import Hero from "@/components/our component/hero"
 import Opportunities from "./components/our component/opportunities";
 import Inquiry from "./components/our component/inquiry";
-import { Button } from "@/components/ui/button";
 import Trusted from "@/components/our component/Trusted";
 import Navbar from "@/components/our component/navbar"
 import Footer from "@/components/our component/footer"
 
-
-function scrollToInquiry() {
-  const el = document.getElementById("inquiry");
-  el?.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
 export default function LotsLandingPage() {
-  const [privacyOk, setPrivacyOk] = React.useState(true);
-
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <Navbar/>

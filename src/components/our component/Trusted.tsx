@@ -1,14 +1,7 @@
-import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Trust from "@/assets/trusted.jpg";
 
 function Trusted() {
-  function scrollToInquiry() {
-    const el = document.getElementById("inquiry");
-    el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
   return (
     <section className="relative">
       <div className="mx-auto px-28 py-10 md:py-14">
@@ -71,7 +64,7 @@ function Trusted() {
             </div>
             <div className="mt-2 text-sm text-white/65 leading-6 px-4 pb-4">
               Submit an inquiry and get matched with residential or investment
-              lots in California.
+              lots in Florida.
             </div>
 
             <Separator className="my-4 bg-white/10" />
