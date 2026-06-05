@@ -1,13 +1,11 @@
-import * as React from "react";
+import { HeroSection } from "@/components/HeroSection"
 
- function App() {
- 
-
+function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
-      
-    </div>
-  );
+    <main className="min-h-screen bg-stone-950">
+      <HeroSection />
+    </main>
+  )
 }
 
-export default App ;
+export default App
