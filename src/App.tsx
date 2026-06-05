@@ -1,4 +1,5 @@
 import { AvailableLotsSection } from "@/components/AvailableLotsSection"
+import { ContactSection } from "@/components/ContactSection"
 import { HeroSection } from "@/components/HeroSection"
 import { TrustSection } from "@/components/TrustSection"
 
@@ -8,6 +9,7 @@ function App() {
       <HeroSection />
       <AvailableLotsSection />
       <TrustSection />
+      <ContactSection />
     </main>
   )
 }
