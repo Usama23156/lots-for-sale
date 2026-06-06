@@ -1,6 +1,6 @@
 import { ArrowUpRight, Home, Landmark, MapPin, Sprout, TrendingUp } from "lucide-react"
 
-import lotImage from "@/assets/trusted.jpg"
+import lotImage from "@/assets/available-lots-florida-land.png"
 import { Button } from "@/components/ui/button"
 
 const featuredLot = {
@@ -38,6 +38,12 @@ const benefits = [
 ]
 
 export function AvailableLotsSection() {
+
+     function scrollToContact() {
+  const el = document.getElementById("Contact");
+  el?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
   return (
     <section className="w-full bg-[#f3eee4] px-6 py-20 text-left text-stone-950 sm:px-10 lg:px-16 lg:py-28">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[1.08fr_0.92fr] lg:items-start">
@@ -45,7 +51,7 @@ export function AvailableLotsSection() {
           <p className="mb-5 text-xs font-bold uppercase tracking-[0.34em] text-[#9b723c]">
             Available Lots
           </p>
-          <h2 className="max-w-3xl font-[var(--heading)] text-4xl font-semibold leading-[0.98] tracking-[-0.04em] !text-[#21170e] sm:text-6xl">
+          <h2 className="max-w-3xl  text-4xl font-semibold leading-[0.98] tracking-[-0.04em] !text-[#21170e] sm:text-6xl">
             A considered land position in Florida's next chapter.
           </h2>
         </div>
@@ -59,8 +65,8 @@ export function AvailableLotsSection() {
       </div>
 
       <div className="mx-auto mt-14 grid max-w-7xl gap-8 lg:grid-cols-[1.15fr_0.85fr]">
-        <article className="overflow-hidden rounded-[2rem] bg-stone-950 shadow-[0_30px_90px_rgba(33,23,14,0.18)]">
-          <div className="relative min-h-[460px]">
+        <article className=" relative overflow-hidden rounded-[2rem] bg-stone-950 shadow-[0_30px_90px_rgba(33,23,14,0.18)]">
+          <div className=" min-h-[1000px]">
             <img
               src={lotImage}
               alt="Aerial view of available Florida acreage with roads and open land"
@@ -75,7 +81,7 @@ export function AvailableLotsSection() {
                   {featuredLot.location}
                 </div>
 
-                <h3 className="font-[var(--heading)] text-4xl font-semibold leading-none tracking-[-0.04em] text-white sm:text-5xl">
+                <h3 className="text-4xl font-semibold leading-none tracking-[-0.04em] text-white sm:text-5xl">
                   {featuredLot.title}
                 </h3>
 
@@ -99,6 +105,7 @@ export function AvailableLotsSection() {
                 </div>
 
                 <Button
+                 onClick={scrollToContact}
                   type="button"
                   className="mt-7 h-14 rounded-full border border-[#d9b16e]/70 bg-[#d9b16e] px-7 text-xs font-bold uppercase tracking-[0.24em] text-stone-950 hover:bg-[#f1d59d]"
                 >
@@ -128,7 +135,7 @@ export function AvailableLotsSection() {
                   </span>
                 </div>
 
-                <h3 className="font-[var(--heading)] text-2xl font-semibold tracking-[-0.03em] text-stone-950">
+                <h3 className="text-2xl font-semibold tracking-[-0.03em] text-stone-950">
                   {benefit.title}
                 </h3>
                 <p className="mt-4 text-sm leading-7 text-stone-700">

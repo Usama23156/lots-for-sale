@@ -8,16 +8,17 @@ import {
   KeyRound,
   MapPinned,
   ShieldCheck,
-} from "lucide-react"
+} from "lucide-react";
 
-import landImage from "@/assets/trusted.jpg"
+import land2Image from "@/assets/contact-cta-happy-land-buyer.png";
+import land1Image from "@/assets/persona-retirement-buyer-florida.png";
 
 const primeLocations = [
   "Central Florida Growth Corridor",
   "Orlando access markets",
   "Gulf-to-Atlantic connector routes",
   "Emerging residential enclaves",
-]
+];
 
 const trustIndicators = [
   {
@@ -35,16 +36,16 @@ const trustIndicators = [
   {
     title: "Investment credibility",
     description:
-      "Editorial storytelling is paired with fundamentals: growth corridors, land scarcity, residential demand, and long-term optionality.",
+      "Editorial storytelling is paired with fundamentals: growth corridors, lots scarcity, residential demand, and long-term optionality.",
     icon: FileCheck2,
   },
-]
+];
 
 const buyerPersonas = [
   {
     title: "Investors",
     description:
-      "For buyers seeking tangible assets, land banking potential, and exposure to Florida's expanding residential map.",
+      "For buyers seeking tangible assets, lots banking potential, and exposure to Florida's expanding residential map.",
     icon: BriefcaseBusiness,
   },
   {
@@ -59,7 +60,7 @@ const buyerPersonas = [
       "For long-view buyers planning a quieter Florida chapter with room, access, and enduring lifestyle value.",
     icon: Home,
   },
-]
+];
 
 export function TrustSection() {
   return (
@@ -70,22 +71,25 @@ export function TrustSection() {
             <p className="mb-5 text-xs font-bold uppercase tracking-[0.34em] text-[#d9b16e]">
               Trust & Location
             </p>
-            <h2 className="font-[var(--heading)] text-4xl font-semibold leading-[0.98] tracking-[-0.045em] text-white sm:text-6xl lg:text-7xl">
+            <h2 className="mb-14 text-4xl font-semibold leading-[0.98] tracking-[-0.045em] text-white sm:text-6xl lg:text-7xl">
               Confidence shaped around place, process, and possibility.
             </h2>
+            <p className="max-w-2xl text-base leading-8 text-white/68 sm:text-lg">
+              Florida lots demands more than a pin on a map. It asks for a clear
+              reading of growth, access, buyer intent, and the transaction
+              discipline that turns acreage into a credible long-term position.
+            </p>
           </div>
-
-          <p className="max-w-2xl text-base leading-8 text-white/68 sm:text-lg">
-            Florida land demands more than a pin on a map. It asks for a clear
-            reading of growth, access, buyer intent, and the transaction
-            discipline that turns acreage into a credible long-term position.
-          </p>
+          <div>
+            <img src={land1Image} alt="" className="mb-5 rounded-full" />
+            
+          </div>
         </div>
 
         <div className="mt-16 grid gap-8 lg:grid-cols-2 lg:items-stretch">
           <article className="relative min-h-[560px] overflow-hidden rounded-[2rem] border border-white/10 bg-[#21170e] p-8 shadow-[0_30px_90px_rgba(0,0,0,0.28)] sm:p-10">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_20%,rgba(217,177,110,0.24),transparent_34%),radial-gradient(circle_at_78%_68%,rgba(255,255,255,0.08),transparent_30%)]" />
-            <div className="relative flex h-full flex-col justify-between">
+            <div className="relative flex h-full flex-col justify-center">
               <div>
                 <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.26em] text-[#ead8b5] backdrop-blur">
                   <MapPinned className="h-4 w-4" aria-hidden="true" />
@@ -116,8 +120,18 @@ export function TrustSection() {
                       { cx: 201, cy: 282, label: "South corridor" },
                     ].map((marker) => (
                       <g key={marker.label}>
-                        <circle cx={marker.cx} cy={marker.cy} r="12" fill="#15110c" />
-                        <circle cx={marker.cx} cy={marker.cy} r="5" fill="#d9b16e" />
+                        <circle
+                          cx={marker.cx}
+                          cy={marker.cy}
+                          r="12"
+                          fill="#15110c"
+                        />
+                        <circle
+                          cx={marker.cx}
+                          cy={marker.cy}
+                          r="5"
+                          fill="#d9b16e"
+                        />
                       </g>
                     ))}
                   </svg>
@@ -141,7 +155,7 @@ export function TrustSection() {
             <p className="mb-5 text-xs font-bold uppercase tracking-[0.34em] text-[#9b723c]">
               Prime Locations
             </p>
-            <h3 className="font-[var(--heading)] text-4xl font-semibold leading-none tracking-[-0.04em] text-[#21170e] sm:text-5xl">
+            <h3 className=" text-4xl font-semibold leading-none tracking-[-0.04em] text-[#21170e] sm:text-5xl">
               A location story built for buyers who think beyond the parcel.
             </h3>
             <p className="mt-7 text-base leading-8 text-stone-700">
@@ -153,7 +167,7 @@ export function TrustSection() {
 
             <div className="mt-10 grid gap-5">
               {trustIndicators.map((indicator) => {
-                const Icon = indicator.icon
+                const Icon = indicator.icon;
 
                 return (
                   <div
@@ -164,7 +178,7 @@ export function TrustSection() {
                       <Icon className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <div>
-                      <h4 className="font-[var(--heading)] text-2xl font-semibold tracking-[-0.03em] text-stone-950">
+                      <h4 className=" text-2xl font-semibold tracking-[-0.03em] text-stone-950">
                         {indicator.title}
                       </h4>
                       <p className="mt-2 text-sm leading-7 text-stone-700">
@@ -172,7 +186,7 @@ export function TrustSection() {
                       </p>
                     </div>
                   </div>
-                )
+                );
               })}
             </div>
           </article>
@@ -184,14 +198,14 @@ export function TrustSection() {
               <p className="mb-5 text-xs font-bold uppercase tracking-[0.34em] text-[#d9b16e]">
                 Buyer Personas
               </p>
-              <h3 className="font-[var(--heading)] text-4xl font-semibold leading-none tracking-[-0.04em] text-white sm:text-5xl">
+              <h3 className=" text-4xl font-semibold leading-none tracking-[-0.04em] text-white sm:text-5xl">
                 Three paths into the same enduring landscape.
               </h3>
             </div>
 
             <div className="mt-12 grid gap-5">
               {buyerPersonas.map((persona, index) => {
-                const Icon = persona.icon
+                const Icon = persona.icon;
 
                 return (
                   <div
@@ -207,7 +221,7 @@ export function TrustSection() {
                       </span>
                     </div>
                     <div>
-                      <h4 className="font-[var(--heading)] text-2xl font-semibold tracking-[-0.03em] text-white">
+                      <h4 className=" text-2xl font-semibold tracking-[-0.03em] text-white">
                         {persona.title}
                       </h4>
                       <p className="mt-3 text-sm leading-7 text-white/64">
@@ -215,31 +229,34 @@ export function TrustSection() {
                       </p>
                     </div>
                   </div>
-                )
+                );
               })}
             </div>
           </article>
 
-          <article className="order-1 overflow-hidden rounded-[2rem] bg-stone-950 shadow-[0_30px_90px_rgba(0,0,0,0.28)] lg:order-2">
-            <div className="relative min-h-[560px]">
+          <article className="relative order-1 overflow-hidden rounded-[2rem] bg-stone-950 shadow-[0_30px_90px_rgba(0,0,0,0.28)] lg:order-2">
+            <div className=" ">
               <img
-                src={landImage}
+                src={land2Image}
                 alt="Florida land viewed from above with road access and open acreage"
                 className="absolute inset-0 h-full w-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/35 to-transparent" />
+              <div className="absolute inset-0 bottom-0 bg-gradient-to-t from-stone-950 via-stone-950/35 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-8 sm:p-10">
                 <div className="max-w-md border border-white/15 bg-white/10 p-6 backdrop-blur-md">
                   <div className="mb-5 flex items-center gap-3 text-xs font-bold uppercase tracking-[0.28em] text-[#ead8b5]">
                     <KeyRound className="h-4 w-4" aria-hidden="true" />
                     Secure Transactions
                   </div>
-                  <p className="font-[var(--heading)] text-3xl font-semibold leading-tight tracking-[-0.035em] text-white">
+                  <p className=" text-3xl font-semibold leading-tight tracking-[-0.035em] text-white">
                     Guided acquisition, credible documentation, and a discreet
                     path from interest to closing.
                   </p>
                   <div className="mt-6 flex items-center gap-3 text-sm font-semibold text-white/72">
-                    <HeartHandshake className="h-5 w-5 text-[#d9b16e]" aria-hidden="true" />
+                    <HeartHandshake
+                      className="h-5 w-5 text-[#d9b16e]"
+                      aria-hidden="true"
+                    />
                     Private buyer support from first review.
                   </div>
                 </div>
@@ -249,5 +266,5 @@ export function TrustSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

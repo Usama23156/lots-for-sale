@@ -25,7 +25,7 @@ const contactDetails = [
 
 export function ContactSection() {
   return (
-    <section className="w-full bg-[#f3eee4] px-6 py-24 text-left text-stone-950 sm:px-10 lg:px-16 lg:py-32">
+    <section id="Contact" className="w-full bg-[#f3eee4] px-6 py-24 text-left text-stone-950 sm:px-10 lg:px-16 lg:py-32">
       <div className="mx-auto max-w-7xl overflow-hidden rounded-[2.25rem] bg-[#17110b] shadow-[0_35px_120px_rgba(33,23,14,0.22)]">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr]">
           <div className="relative isolate flex flex-col justify-between overflow-hidden p-8 text-white sm:p-10 lg:p-14">

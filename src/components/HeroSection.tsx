@@ -1,9 +1,15 @@
 import { ArrowUpRight } from "lucide-react"
 
-import heroBackground from "@/assets/trusted.jpg"
+import heroBackground from "@/assets/hero-florida-coastal-land.png"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
+
+     function scrollToContact() {
+  const el = document.getElementById("Contact");
+  el?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
   return (
     <section className="relative isolate flex min-h-screen w-full overflow-hidden bg-stone-950 text-left text-white">
       <img
@@ -16,16 +22,12 @@ export function HeroSection() {
 
       <div className="mx-auto flex w-full max-w-7xl items-center px-6 py-20 sm:px-10 lg:px-16">
         <div className="max-w-4xl pt-16">
-          <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.32em] text-[#ead8b5] shadow-2xl shadow-black/20 backdrop-blur-md">
-            <span className="h-2 w-2 rounded-full bg-[#d9b16e]" />
-            Private Land Advisory
-          </div>
 
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.42em] text-white/70">
             Editorial Estate Portfolio
           </p>
 
-          <h1 className="max-w-4xl font-[var(--heading)] text-5xl font-semibold leading-[0.92] tracking-[-0.055em] text-white sm:text-7xl lg:text-8xl">
+          <h1 className="max-w-4xl text-5xl font-semibold leading-[0.92] tracking-[-0.055em] text-white sm:text-7xl lg:text-8xl">
             Where enduring land becomes a private legacy.
           </h1>
 
@@ -37,19 +39,14 @@ export function HeroSection() {
 
           <div className="mt-11 flex flex-col gap-4 sm:flex-row">
             <Button
+             onClick={scrollToContact}
               type="button"
               className="h-14 rounded-full border border-[#d9b16e]/60 bg-[#d9b16e] px-8 text-sm font-bold uppercase tracking-[0.24em] text-stone-950 shadow-[0_18px_60px_rgba(0,0,0,0.35)] hover:bg-[#f1d59d]"
             >
               Request Private Brief
               <ArrowUpRight className="ml-2 h-4 w-4" aria-hidden="true" />
             </Button>
-            <Button
-              type="button"
-              variant="outline"
-              className="h-14 rounded-full border-white/35 bg-white/10 px-8 text-sm font-bold uppercase tracking-[0.24em] text-white backdrop-blur-md hover:bg-white hover:text-stone-950"
-            >
-              View Estate Story
-            </Button>
+           
           </div>
 
           <div className="mt-14 flex max-w-md items-center gap-4 border-l border-[#d9b16e]/60 pl-5">

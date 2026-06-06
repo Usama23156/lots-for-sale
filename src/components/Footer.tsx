@@ -50,8 +50,8 @@ export function Footer() {
                 />
               </span>
               <div>
-                <p className="font-[var(--heading)] text-2xl font-semibold tracking-[-0.04em] text-white">
-                  Florida Land
+                <p className=" text-2xl font-semibold tracking-[-0.04em] text-white">
+                  Florida Lots
                 </p>
                 <p className="mt-1 text-[0.62rem] font-bold uppercase tracking-[0.3em] text-[#d9b16e]">
                   Private Advisory
@@ -60,22 +60,20 @@ export function Footer() {
             </div>
 
             <p className="mt-7 max-w-sm text-sm leading-7 text-white/58">
-              Editorial land advisory for buyers seeking privacy, long-view
+              Editorial lots advisory for buyers seeking privacy, long-view
               value, and credible Florida growth opportunities.
             </p>
           </div>
 
-          <div className="grid gap-5 sm:grid-cols-3">
+          <div className="">
             {contactItems.map((item) => {
               const Icon = item.icon
 
               return (
-                <div key={item.label} className="border border-white/10 bg-white/[0.04] p-5">
-                  <Icon className="mb-5 h-5 w-5 text-[#d9b16e]" aria-hidden="true" />
-                  <p className="text-[0.65rem] font-bold uppercase tracking-[0.24em] text-white/40">
-                    {item.label}
-                  </p>
-                  <p className="mt-3 text-sm font-semibold leading-6 text-white/78">
+                <div key={item.label} className="flex gap-10 items-center border border-white/10 bg-white/[0.04] p-5 w-96">
+                  <Icon className=" h-5 w-5 text-[#d9b16e]" aria-hidden="true" />
+                 
+                  <p className=" text-sm font-semibold leading-6 text-white/78">
                     {item.value}
                   </p>
                 </div>
@@ -109,8 +107,8 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 pt-8 text-xs font-semibold uppercase tracking-[0.22em] text-white/36 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Florida Land Advisory. All rights reserved.</p>
-          <p>Secure private land acquisition guidance.</p>
+          <p>© 2026 Florida Lots Advisory. All rights reserved.</p>
+          <p>Secure private lots acquisition guidance.</p>
         </div>
       </div>
     </footer>
