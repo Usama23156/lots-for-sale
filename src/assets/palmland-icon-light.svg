@@ -1,16 +1,16 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">PalmLand icon light</title>
-  <desc id="desc">Premium icon-only PalmLand estate seal with restrained palm, coastline, and surveyed land mark.</desc>
-  <circle cx="128" cy="128" r="109" stroke="#102F26" stroke-width="5"/>
-  <circle cx="128" cy="128" r="93" stroke="#B88A3C" stroke-width="2"/>
-  <path d="M42 147C78 128 107 130 134 144C165 161 198 156 232 133" stroke="#B88A3C" stroke-width="5" stroke-linecap="round"/>
-  <path d="M39 175C79 157 120 158 165 173C193 183 218 184 244 176V203C186 238 92 239 39 203V175Z" fill="#102F26"/>
-  <path d="M58 187C105 171 162 174 229 194" stroke="#F4EBDD" stroke-width="6" stroke-linecap="round"/>
-  <path d="M101 225C119 201 140 184 166 172" stroke="#F4EBDD" stroke-width="6" stroke-linecap="round"/>
-  <path d="M168 236C181 212 202 195 229 182" stroke="#F4EBDD" stroke-width="6" stroke-linecap="round"/>
-  <path d="M91 166C99 141 101 115 97 87" stroke="#102F26" stroke-width="7" stroke-linecap="round"/>
-  <path d="M97 88C74 84 56 92 43 110C65 111 83 105 97 88Z" fill="#102F26"/>
-  <path d="M97 88C83 67 62 58 38 62C54 80 73 89 97 88Z" fill="#102F26"/>
-  <path d="M97 88C110 67 131 57 156 59C141 79 122 89 97 88Z" fill="#102F26"/>
-  <path d="M97 88C119 84 139 92 154 111C130 111 111 105 97 88Z" fill="#102F26"/>
+  <desc id="desc">Icon-only PalmLand mark with a refined palm, coastline horizon, and land parcel geometry.</desc>
+  <circle cx="128" cy="128" r="112" stroke="#102F26" stroke-width="6"/>
+  <circle cx="128" cy="128" r="92" stroke="#C7A15A" stroke-width="2"/>
+  <path d="M56 143C87 124 118 123 149 139C177 153 201 153 228 137" stroke="#C7A15A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M61 176H222" stroke="#102F26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M85 218L128 176L171 218" stroke="#102F26" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 176V231" stroke="#C7A15A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M97 231H193" stroke="#102F26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 155C137 126 139 99 134 70" stroke="#102F26" stroke-width="7" stroke-linecap="round"/>
+  <path d="M134 72C111 68 92 76 79 94C101 95 119 89 134 72Z" fill="#102F26"/>
+  <path d="M134 72C120 51 99 43 76 47C92 64 111 73 134 72Z" fill="#102F26"/>
+  <path d="M134 72C148 51 169 43 193 47C177 64 158 73 134 72Z" fill="#102F26"/>
+  <path d="M134 72C157 68 177 76 191 95C168 95 149 89 134 72Z" fill="#102F26"/>
 </svg>

@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from "lucide-react"
 
-import logo from "@/assets/6efd2636-210b-451c-95ab-10932473dd6e.jfif"
+import logo from "@/assets/palmland-horizontal-dark.svg"
 
 const contactItems = [
   {
@@ -10,7 +10,7 @@ const contactItems = [
   },
   {
     label: "Email",
-    value: "advisory@floridaland.co",
+    value: "advisory@palmland.co",
     icon: Mail,
   },
   {
@@ -41,26 +41,14 @@ export function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 border-b border-white/10 pb-12 lg:grid-cols-[1.05fr_1.25fr_0.7fr]">
           <div>
-            <div className="flex items-center gap-4">
-              <span className="flex h-14 w-14 items-center justify-center overflow-hidden rounded-full border border-[#d9b16e]/40 bg-white">
-                <img
-                  src={logo}
-                  alt="Florida Land Advisory logo"
-                  className="h-full w-full object-cover"
-                />
-              </span>
-              <div>
-                <p className="font-[var(--heading)] text-2xl font-semibold tracking-[-0.04em] text-white">
-                  Florida Land
-                </p>
-                <p className="mt-1 text-[0.62rem] font-bold uppercase tracking-[0.3em] text-[#d9b16e]">
-                  Private Advisory
-                </p>
-              </div>
-            </div>
+            <img
+              src={logo}
+              alt="PalmLand"
+              className="h-16 w-auto"
+            />
 
             <p className="mt-7 max-w-sm text-sm leading-7 text-white/58">
-              Editorial land advisory for buyers seeking privacy, long-view
+              Premium Florida land advisory for buyers seeking privacy, long-view
               value, and credible Florida growth opportunities.
             </p>
           </div>
@@ -109,7 +97,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 pt-8 text-xs font-semibold uppercase tracking-[0.22em] text-white/36 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Florida Land Advisory. All rights reserved.</p>
+          <p>© 2026 PalmLand. All rights reserved.</p>
           <p>Secure private land acquisition guidance.</p>
         </div>
       </div>

@@ -1,7 +1,7 @@
-<svg width="780" height="200" viewBox="0 0 780 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">PalmLand horizontal logo dark</title>
-  <desc id="desc">Horizontal PalmLand logo with original palm, coastline horizon, parcel geometry, and wordmark for dark backgrounds.</desc>
-  <g transform="translate(34 18) scale(0.78)">
+<svg width="520" height="430" viewBox="0 0 520 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PalmLand main logo dark</title>
+  <desc id="desc">Premium PalmLand logo with an original palm, coastline horizon, and land parcel geometry above a refined wordmark for dark backgrounds.</desc>
+  <g transform="translate(156 22)">
     <circle cx="104" cy="104" r="93" stroke="#F4EBDD" stroke-width="4"/>
     <circle cx="104" cy="104" r="77" stroke="#D9B16E" stroke-width="1.6"/>
     <path d="M44 117C70 101 96 100 122 113C145 125 166 125 188 112" stroke="#D9B16E" stroke-width="4.5" stroke-linecap="round"/>
@@ -15,7 +15,7 @@
     <path d="M108 60C119 43 136 36 156 39C143 54 128 61 108 60Z" fill="#F4EBDD"/>
     <path d="M108 60C126 57 143 64 154 80C135 80 120 74 108 60Z" fill="#F4EBDD"/>
   </g>
-  <path d="M238 44V156" stroke="#D9B16E" stroke-width="1.4"/>
-  <text x="282" y="93" fill="#F4EBDD" font-family="Playfair Display, Georgia, serif" font-size="62" font-weight="500" letter-spacing="-1.7">PalmLand</text>
-  <text x="286" y="130" fill="#D9B16E" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="4.8">FLORIDA LAND INVESTMENT</text>
+  <path d="M170 258H350" stroke="#D9B16E" stroke-width="1.4"/>
+  <text x="260" y="330" text-anchor="middle" fill="#F4EBDD" font-family="Playfair Display, Georgia, serif" font-size="64" font-weight="500" letter-spacing="-1.8">PalmLand</text>
+  <text x="260" y="368" text-anchor="middle" fill="#D9B16E" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="5">FLORIDA LAND INVESTMENT</text>
 </svg>
