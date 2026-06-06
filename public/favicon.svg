@@ -1,34 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
-  <!-- الخلفية البيضاء -->
-  <rect width="800" height="800" fill="#FFFFFF" />
-
-  <g transform="translate(40, 20)">
-    <!-- المبنى الرئيسي (الكبير) - الكحلي -->
-    <path d="M 276 276 L 431 142 L 431 254 L 413 254 L 413 182 L 294 285 L 294 474 L 276 474 Z" fill="#132233" />
-    
-    <!-- المبنى الصغير - الأخضر -->
-    <path d="M 408 290 L 492 354 L 492 465 L 474 465 L 474 380 L 426 343 L 426 460 L 408 460 Z" fill="#608038" />
-    
-    <!-- الأرضية والقاعدة السفلية للشعار -->
-    <!-- القوس الكحلي العلوي والأيسر -->
-    <path d="M 152 550 C 260 480, 460 460, 654 508 C 550 515, 380 540, 240 655 C 200 610, 175 580, 152 550 Z" fill="#132233" />
-    
-    <!-- الخطوط البيضاء الفاصلة داخل الأرضية -->
-    <path d="M 226 545 Q 360 495 560 528" stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round" />
-    <path d="M 345 590 Q 420 540 600 535" stroke="#FFFFFF" stroke-width="10" fill="none" stroke-linecap="round" />
-    
-    <!-- الجزء الأخضر من الأرضية -->
-    <path d="M 378 615 C 440 560, 530 540, 615 536 C 600 555, 550 590, 440 660 C 410 640, 395 625, 378 615 Z" fill="#608038" />
-    
-    <!-- الإطار السفلي على شكل حرف V المنحني -->
-    <path d="M 152 572 C 220 630, 320 740, 400 770 C 480 740, 580 630, 648 572 C 580 640, 480 710, 400 735 C 320 710, 220 640, 152 572 Z" fill="#132233" />
-    
-    <!-- علامة الموقع (Location Pin) في الأسفل -->
-    <g transform="translate(400, 700)">
-      <!-- جسم العلامة الخارجي -->
-      <path d="M 0 0 C -28 -28, -40 -45, -40 -65 C -40 -88, -22 -105, 0 -105 C 22 -105, 40 -88, 40 -65 C 40 -45, 28 -28, 0 0 Z" fill="#132233" />
-      <!-- الدائرة البيضاء الداخلية -->
-      <circle cx="0" cy="-65" r="16" fill="#FFFFFF" />
-    </g>
-  </g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PalmLand icon only</title>
+  <desc id="desc">Text-free PalmLand mark with a refined palm, coastline horizon, and land parcel geometry.</desc>
+  <circle cx="128" cy="128" r="112" stroke="#102F26" stroke-width="6"/>
+  <circle cx="128" cy="128" r="92" stroke="#C7A15A" stroke-width="2"/>
+  <path d="M56 143C87 124 118 123 149 139C177 153 201 153 228 137" stroke="#C7A15A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M61 176H222" stroke="#102F26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M85 218L128 176L171 218" stroke="#102F26" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 176V231" stroke="#C7A15A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M97 231H193" stroke="#102F26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 155C137 126 139 99 134 70" stroke="#102F26" stroke-width="7" stroke-linecap="round"/>
+  <path d="M134 72C111 68 92 76 79 94C101 95 119 89 134 72Z" fill="#102F26"/>
+  <path d="M134 72C120 51 99 43 76 47C92 64 111 73 134 72Z" fill="#102F26"/>
+  <path d="M134 72C148 51 169 43 193 47C177 64 158 73 134 72Z" fill="#102F26"/>
+  <path d="M134 72C157 68 177 76 191 95C168 95 149 89 134 72Z" fill="#102F26"/>
 </svg>

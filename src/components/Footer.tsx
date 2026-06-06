@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from "lucide-react"
 
-import logo from "@/assets/6efd2636-210b-451c-95ab-10932473dd6e.jfif"
+import logo from "@/assets/logoo.jpeg"
 
 const contactItems = [
   {
