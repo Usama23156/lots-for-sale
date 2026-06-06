@@ -1,19 +1,19 @@
 <svg width="500" height="420" viewBox="0 0 500 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">PalmLand primary logo light</title>
-  <desc id="desc">Original PalmLand logo with a refined palm, sun, coastline, and surveyed land plots above a premium wordmark.</desc>
-  <path d="M118 185C118 107.68 177.1 45 250 45C322.9 45 382 107.68 382 185" stroke="#C99B3E" stroke-width="10" stroke-linecap="round"/>
-  <circle cx="253" cy="161" r="43" fill="#D7A648"/>
-  <path d="M107 232C151.58 202.84 202.89 203.79 254 222C303.53 239.65 342.12 226.42 393 199V296C320.45 338.8 196.63 339.32 107 296V232Z" fill="#12382F"/>
-  <path d="M152 226C185.52 208.74 220.7 211.18 254 222C286.92 232.7 319.24 229.83 353 214" stroke="#F8F1E5" stroke-width="9" stroke-linecap="round"/>
-  <path d="M122 274C185.62 245.38 249.38 248.37 382 272" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
-  <path d="M182 322C215 281 242 254 286 226" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
-  <path d="M272 334C289 295 322 262 372 232" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
-  <path d="M170 219C182 188 188 159 190 128" stroke="#12382F" stroke-width="10" stroke-linecap="round"/>
-  <path d="M190 129C160 123 136 134 120 158C150 158 174 151 190 129Z" fill="#12382F"/>
-  <path d="M190 129C174 102 148 91 119 96C140 119 163 131 190 129Z" fill="#12382F"/>
-  <path d="M190 129C204 100 229 84 260 83C244 112 220 128 190 129Z" fill="#12382F"/>
-  <path d="M190 129C221 124 245 135 262 160C232 160 207 151 190 129Z" fill="#12382F"/>
-  <path d="M190 129C189 99 202 74 228 57C229 90 216 113 190 129Z" fill="#12382F"/>
-  <text x="250" y="365" text-anchor="middle" fill="#10231D" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="600" letter-spacing="-2">PalmLand</text>
-  <text x="250" y="394" text-anchor="middle" fill="#6C7F3F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="4">FLORIDA LAND SALES &amp; INVESTMENT</text>
+  <desc id="desc">Premium PalmLand estate seal with a restrained palm, coastline, and surveyed land mark above a refined wordmark.</desc>
+  <circle cx="250" cy="146" r="111" stroke="#102F26" stroke-width="4"/>
+  <circle cx="250" cy="146" r="96" stroke="#B88A3C" stroke-width="1.6"/>
+  <path d="M160 168C197 149 227 151 255 166C286 183 321 178 356 154" stroke="#B88A3C" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M156 196C197 178 238 178 284 194C313 204 339 205 366 197V227C306 263 211 263 156 227V196Z" fill="#102F26"/>
+  <path d="M176 208C224 191 282 194 351 215" stroke="#F4EBDD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M220 244C238 220 260 202 286 190" stroke="#F4EBDD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M288 255C301 231 322 213 350 200" stroke="#F4EBDD" stroke-width="5" stroke-linecap="round"/>
+  <path d="M213 187C221 162 223 136 219 108" stroke="#102F26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M219 109C196 105 178 113 165 131C187 132 205 126 219 109Z" fill="#102F26"/>
+  <path d="M219 109C205 88 184 79 160 83C176 101 195 110 219 109Z" fill="#102F26"/>
+  <path d="M219 109C232 88 253 78 278 80C263 100 244 110 219 109Z" fill="#102F26"/>
+  <path d="M219 109C241 105 261 113 276 132C252 132 233 126 219 109Z" fill="#102F26"/>
+  <path d="M136 278H364" stroke="#B88A3C" stroke-width="1.4"/>
+  <text x="250" y="348" text-anchor="middle" fill="#10231D" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="500" letter-spacing="-1.6">PalmLand</text>
+  <text x="250" y="382" text-anchor="middle" fill="#7A673C" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="4.6">FLORIDA LAND INVESTMENT</text>
 </svg>

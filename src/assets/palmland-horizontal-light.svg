@@ -1,22 +1,21 @@
 <svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">PalmLand horizontal logo light</title>
-  <desc id="desc">Horizontal PalmLand logo with original palm coastline icon and wordmark.</desc>
-  <g transform="translate(30 14) scale(0.58)">
-    <path d="M118 185C118 107.68 177.1 45 250 45C322.9 45 382 107.68 382 185" stroke="#C99B3E" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="253" cy="161" r="43" fill="#D7A648"/>
-    <path d="M107 232C151.58 202.84 202.89 203.79 254 222C303.53 239.65 342.12 226.42 393 199V296C320.45 338.8 196.63 339.32 107 296V232Z" fill="#12382F"/>
-    <path d="M152 226C185.52 208.74 220.7 211.18 254 222C286.92 232.7 319.24 229.83 353 214" stroke="#F8F1E5" stroke-width="9" stroke-linecap="round"/>
-    <path d="M122 274C185.62 245.38 249.38 248.37 382 272" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
-    <path d="M182 322C215 281 242 254 286 226" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
-    <path d="M272 334C289 295 322 262 372 232" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
-    <path d="M170 219C182 188 188 159 190 128" stroke="#12382F" stroke-width="10" stroke-linecap="round"/>
-    <path d="M190 129C160 123 136 134 120 158C150 158 174 151 190 129Z" fill="#12382F"/>
-    <path d="M190 129C174 102 148 91 119 96C140 119 163 131 190 129Z" fill="#12382F"/>
-    <path d="M190 129C204 100 229 84 260 83C244 112 220 128 190 129Z" fill="#12382F"/>
-    <path d="M190 129C221 124 245 135 262 160C232 160 207 151 190 129Z" fill="#12382F"/>
-    <path d="M190 129C189 99 202 74 228 57C229 90 216 113 190 129Z" fill="#12382F"/>
+  <desc id="desc">Horizontal PalmLand logo with a restrained estate seal and refined wordmark.</desc>
+  <g transform="translate(34 16) scale(0.72)">
+    <circle cx="128" cy="106" r="82" stroke="#102F26" stroke-width="3.2"/>
+    <circle cx="128" cy="106" r="70" stroke="#B88A3C" stroke-width="1.3"/>
+    <path d="M62 122C89 108 111 109 132 120C155 132 181 129 207 111" stroke="#B88A3C" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M59 142C89 129 119 129 153 141C174 148 194 149 214 143V165C170 191 100 191 59 165V142Z" fill="#102F26"/>
+    <path d="M74 151C109 139 152 141 203 156" stroke="#F4EBDD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M106 177C119 159 135 146 154 138" stroke="#F4EBDD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M156 185C166 167 181 154 202 144" stroke="#F4EBDD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M101 136C107 118 108 99 105 78" stroke="#102F26" stroke-width="5" stroke-linecap="round"/>
+    <path d="M105 79C88 76 75 82 65 95C81 96 95 92 105 79Z" fill="#102F26"/>
+    <path d="M105 79C95 64 80 57 62 60C74 73 88 80 105 79Z" fill="#102F26"/>
+    <path d="M105 79C115 64 130 56 148 58C137 73 123 80 105 79Z" fill="#102F26"/>
+    <path d="M105 79C122 76 136 82 147 96C130 96 116 92 105 79Z" fill="#102F26"/>
   </g>
-  <path d="M288 54V166" stroke="#D9B16E" stroke-width="1.5"/>
-  <text x="330" y="107" fill="#10231D" font-family="Playfair Display, Georgia, serif" font-size="64" font-weight="600" letter-spacing="-2.4">PalmLand</text>
-  <text x="335" y="143" fill="#6C7F3F" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4.4">FLORIDA LAND SALES &amp; INVESTMENT</text>
+  <path d="M254 48V172" stroke="#B88A3C" stroke-width="1.4"/>
+  <text x="300" y="102" fill="#10231D" font-family="Playfair Display, Georgia, serif" font-size="62" font-weight="500" letter-spacing="-1.7">PalmLand</text>
+  <text x="304" y="139" fill="#7A673C" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="4.8">FLORIDA LAND INVESTMENT</text>
 </svg>
