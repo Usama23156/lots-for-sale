@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PalmLand icon dark</title>
+  <desc id="desc">Icon-only PalmLand mark with palm, sun, coastline, and surveyed land plots for dark backgrounds.</desc>
+  <path d="M34 121C34 66.88 76.09 23 128 23C179.91 23 222 66.88 222 121" stroke="#D9B16E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="130" cy="112" r="29" fill="#D9B16E"/>
+  <path d="M30 154C61.61 133.34 97.98 134.01 134.22 146.92C169.33 159.43 196.68 150.05 232.75 130.62V199.39C181.32 229.73 93.55 230.1 30 199.39V154Z" fill="#6F8F3A"/>
+  <path d="M62 150C85.76 137.76 110.7 139.49 134.32 147.16C157.66 154.75 180.58 152.72 204.51 141.49" stroke="#15110C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M40.63 184.03C85.73 163.74 130.94 165.86 224.95 182.62" stroke="#15110C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M83.15 218.06C106.54 189 125.68 169.86 156.88 150.01" stroke="#15110C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M146.94 226.56C158.99 198.91 182.38 175.51 217.82 154.25" stroke="#15110C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M74.64 144.78C83.15 122.82 87.4 102.27 88.82 80.29" stroke="#F8F1E5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M88.82 81C67.55 76.75 50.54 84.55 39.2 101.56C60.47 101.56 77.48 96.6 88.82 81Z" fill="#F8F1E5"/>
+  <path d="M88.82 81C77.48 61.86 59.05 54.06 38.49 57.61C53.38 73.92 69.68 82.42 88.82 81Z" fill="#F8F1E5"/>
+  <path d="M88.82 81C98.75 60.44 116.47 49.11 138.45 48.4C127.11 68.97 110.1 80.29 88.82 81Z" fill="#F8F1E5"/>
+  <path d="M88.82 81C110.81 77.46 127.82 85.26 139.87 102.98C118.6 102.98 100.88 96.6 88.82 81Z" fill="#F8F1E5"/>
+  <path d="M88.82 81C88.11 59.73 97.33 42 115.76 29.95C116.47 53.35 107.25 69.68 88.82 81Z" fill="#F8F1E5"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PalmLand horizontal logo dark</title>
+  <desc id="desc">Horizontal PalmLand logo with original palm coastline icon and wordmark for dark backgrounds.</desc>
+  <g transform="translate(30 14) scale(0.58)">
+    <path d="M118 185C118 107.68 177.1 45 250 45C322.9 45 382 107.68 382 185" stroke="#D9B16E" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="253" cy="161" r="43" fill="#D9B16E"/>
+    <path d="M107 232C151.58 202.84 202.89 203.79 254 222C303.53 239.65 342.12 226.42 393 199V296C320.45 338.8 196.63 339.32 107 296V232Z" fill="#6F8F3A"/>
+    <path d="M152 226C185.52 208.74 220.7 211.18 254 222C286.92 232.7 319.24 229.83 353 214" stroke="#15110C" stroke-width="9" stroke-linecap="round"/>
+    <path d="M122 274C185.62 245.38 249.38 248.37 382 272" stroke="#15110C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M182 322C215 281 242 254 286 226" stroke="#15110C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M272 334C289 295 322 262 372 232" stroke="#15110C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M170 219C182 188 188 159 190 128" stroke="#F8F1E5" stroke-width="10" stroke-linecap="round"/>
+    <path d="M190 129C160 123 136 134 120 158C150 158 174 151 190 129Z" fill="#F8F1E5"/>
+    <path d="M190 129C174 102 148 91 119 96C140 119 163 131 190 129Z" fill="#F8F1E5"/>
+    <path d="M190 129C204 100 229 84 260 83C244 112 220 128 190 129Z" fill="#F8F1E5"/>
+    <path d="M190 129C221 124 245 135 262 160C232 160 207 151 190 129Z" fill="#F8F1E5"/>
+    <path d="M190 129C189 99 202 74 228 57C229 90 216 113 190 129Z" fill="#F8F1E5"/>
+  </g>
+  <path d="M288 54V166" stroke="#D9B16E" stroke-width="1.5"/>
+  <text x="330" y="107" fill="#F8F1E5" font-family="Playfair Display, Georgia, serif" font-size="64" font-weight="600" letter-spacing="-2.4">PalmLand</text>
+  <text x="335" y="143" fill="#D9B16E" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4.4">FLORIDA LAND SALES &amp; INVESTMENT</text>
+</svg>
